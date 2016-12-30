@@ -240,3 +240,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/express_loc8r/typings
+/express_loc8r/typings.json
