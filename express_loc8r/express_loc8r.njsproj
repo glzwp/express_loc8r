@@ -31,23 +31,26 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
-    <Compile Include="routes\index.js" />
-    <Compile Include="routes\users.js" />
+    <Compile Include="app_server\routes\index.js" />
+    <Compile Include="app_server\routes\users.js" />
     <Compile Include="bin\www" />
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="typings.json" />
-    <Content Include="views\index.jade" />
-    <Content Include="views\layout.jade" />
-    <Content Include="views\error.jade" />
+    <Content Include="app_server\views\index.jade" />
+    <Content Include="app_server\views\layout.jade" />
+    <Content Include="app_server\views\error.jade" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app_server\models\" />
+    <Folder Include="app_server\controllers\" />
     <Folder Include="bin\" />
+    <Folder Include="app_server\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />
     <Folder Include="public\stylesheets\" />
-    <Folder Include="routes\" />
+    <Folder Include="app_server\routes\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\body-parser\" />
@@ -62,7 +65,7 @@
     <Folder Include="typings\globals\serve-favicon\" />
     <Folder Include="typings\globals\serve-static\" />
     <Folder Include="typings\globals\stylus\" />
-    <Folder Include="views\" />
+    <Folder Include="app_server\views\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="typings\globals\body-parser\index.d.ts" />
