@@ -31,7 +31,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
-    <Compile Include="app_server\controllers\main.js" />
+    <Compile Include="app_server\controllers\locations.js" />
+    <Compile Include="app_server\controllers\others.js" />
     <Compile Include="app_server\routes\index.js" />
     <Compile Include="app_server\routes\users.js" />
     <Compile Include="bin\www" />
