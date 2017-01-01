@@ -38,6 +38,7 @@
     <Compile Include="bin\www" />
     <Compile Include="public\bootstrap\js\bootstrap.js" />
     <Compile Include="public\bootstrap\js\bootstrap.min.js" />
+    <Content Include="app_server\views\locations-list.jade" />
     <Content Include="package.json" />
     <Content Include="public\bootstrap\css\amelia.bootstrap.css" />
     <Content Include="public\bootstrap\css\amelia.bootstrap.min.css" />
