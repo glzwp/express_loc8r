@@ -42,6 +42,7 @@
     <Content Include="app_server\views\location-review-form.jade" />
     <Content Include="app_server\views\location-info.jade" />
     <Content Include="app_server\views\locations-list.jade" />
+    <Content Include="app_server\views\_includes\sharedHTMLfunctions.jade" />
     <Content Include="package.json" />
     <Content Include="public\bootstrap\css\amelia.bootstrap.css" />
     <Content Include="public\bootstrap\css\amelia.bootstrap.min.css" />
@@ -60,6 +61,7 @@
   <ItemGroup>
     <Folder Include="app_server\models\" />
     <Folder Include="app_server\controllers\" />
+    <Folder Include="app_server\views\_includes\" />
     <Folder Include="bin\" />
     <Folder Include="app_server\" />
     <Folder Include="public\" />
