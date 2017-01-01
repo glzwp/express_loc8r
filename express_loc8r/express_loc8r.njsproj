@@ -31,10 +31,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="app_api\controllers\locations.js" />
+    <Compile Include="app_api\controllers\reviews.js" />
+    <Compile Include="app_api\routes\index.js" />
     <Compile Include="app_server\controllers\locations.js" />
     <Compile Include="app_server\controllers\others.js" />
-    <Compile Include="app_server\models\db.js" />
-    <Compile Include="app_server\models\locations.js" />
+    <Compile Include="app_api\models\db.js" />
+    <Compile Include="app_api\models\locations.js" />
     <Compile Include="app_server\routes\index.js" />
     <Compile Include="app_server\routes\users.js" />
     <Compile Include="bin\www" />
@@ -61,11 +64,14 @@
     <Content Include="app_server\views\error.jade" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app_server\models\" />
+    <Folder Include="app_api\controllers\" />
+    <Folder Include="app_api\routes\" />
+    <Folder Include="app_api\models\" />
     <Folder Include="app_server\controllers\" />
     <Folder Include="app_server\views\_includes\" />
     <Folder Include="bin\" />
     <Folder Include="app_server\" />
+    <Folder Include="app_api\" />
     <Folder Include="public\" />
     <Folder Include="public\bootstrap\" />
     <Folder Include="public\bootstrap\css\" />
