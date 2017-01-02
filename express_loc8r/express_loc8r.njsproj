@@ -34,6 +34,7 @@
     <Compile Include="app_api\controllers\locations.js" />
     <Compile Include="app_api\controllers\reviews.js" />
     <Compile Include="app_api\routes\index.js" />
+    <Compile Include="app_client\app.js" />
     <Compile Include="app_server\controllers\locations.js" />
     <Compile Include="app_server\controllers\others.js" />
     <Compile Include="app_api\models\db.js" />
@@ -46,6 +47,7 @@
     <Compile Include="public\angular\angular.min.js" />
     <Compile Include="public\angular\loc8rApp.js" />
     <Compile Include="public\javascripts\validation.js" />
+    <Content Include="app_client\home\home.view.html" />
     <Content Include="app_server\views\generic-text.jade" />
     <Content Include="app_server\views\location-review-form.jade" />
     <Content Include="app_server\views\location-info.jade" />
@@ -71,11 +73,14 @@
     <Folder Include="app_api\controllers\" />
     <Folder Include="app_api\routes\" />
     <Folder Include="app_api\models\" />
+    <Folder Include="app_client\lib\" />
+    <Folder Include="app_client\home\" />
     <Folder Include="app_server\controllers\" />
     <Folder Include="app_server\views\_includes\" />
     <Folder Include="bin\" />
     <Folder Include="app_server\" />
     <Folder Include="app_api\" />
+    <Folder Include="app_client\" />
     <Folder Include="public\" />
     <Folder Include="public\bootstrap\" />
     <Folder Include="public\bootstrap\css\" />
