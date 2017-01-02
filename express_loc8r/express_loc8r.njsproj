@@ -43,6 +43,8 @@
     <Compile Include="bin\www" />
     <Compile Include="public\bootstrap\js\bootstrap.js" />
     <Compile Include="public\bootstrap\js\bootstrap.min.js" />
+    <Compile Include="public\angular\angular.min.js" />
+    <Compile Include="public\angular\loc8rApp.js" />
     <Compile Include="public\javascripts\validation.js" />
     <Content Include="app_server\views\generic-text.jade" />
     <Content Include="app_server\views\location-review-form.jade" />
@@ -50,6 +52,7 @@
     <Content Include="app_server\views\locations-list.jade" />
     <Content Include="app_server\views\_includes\sharedHTMLfunctions.jade" />
     <Content Include="package.json" />
+    <Content Include="public\angular\rating-stars.html" />
     <Content Include="public\bootstrap\css\amelia.bootstrap.css" />
     <Content Include="public\bootstrap\css\amelia.bootstrap.min.css" />
     <Content Include="public\bootstrap\css\bootstrap.min.css" />
@@ -80,6 +83,7 @@
     <Folder Include="public\bootstrap\js\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />
+    <Folder Include="public\angular\" />
     <Folder Include="public\stylesheets\" />
     <Folder Include="app_server\routes\" />
     <Folder Include="typings\" />
