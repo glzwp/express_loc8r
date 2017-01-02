@@ -71,31 +71,7 @@ var renderHomepage = function (req, res, responseBody) {
 
 /* GET 'home' page */
 module.exports.homelist = function (req, res) {
-    var requestOptions, path;
-    path = '/api/locations';
-    requestOptions = {
-        url: apiOptions.server + path,
-        method: "GET",
-        json: {},
-        qs: {
-            lng: -0.9690884,
-            lat: 51.455041,
-            maxDistance: 20
-        }
-    };
-    request(
-        requestOptions,
-        function (err, response, body) {
-            var i, data;
-            data = body;
-            if (response.statusCode === 200 && data.length) {
-                for (i = 0; i < data.length; i++) {
-                    data[i].distance = _formatDistance(data[i].distance);
-                }
-            }
-            renderHomepage(req, res, data);
-        }
-    );
+    renderHomepage(req, res);
 };
 
 var getLocationInfo = function (req, res, callback) {
@@ -146,7 +122,8 @@ var renderReviewForm = function (req, res, locDetail) {
     res.render('location-review-form', {
         title: 'Review ' + locDetail.name + ' on Loc8r',
         pageHeader: { title: 'Review ' + locDetail.name },
-        error: req.query.err
+        error: req.query.err,
+        url: req.originalUrl
     });
 };
 
