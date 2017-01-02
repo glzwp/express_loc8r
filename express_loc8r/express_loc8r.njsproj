@@ -35,6 +35,7 @@
     <Compile Include="app_api\controllers\reviews.js" />
     <Compile Include="app_api\routes\index.js" />
     <Compile Include="app_client\app.js" />
+    <Compile Include="app_client\home\home.controller.js" />
     <Compile Include="app_server\controllers\locations.js" />
     <Compile Include="app_server\controllers\others.js" />
     <Compile Include="app_api\models\db.js" />
