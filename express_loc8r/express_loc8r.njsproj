@@ -43,6 +43,7 @@
     <Compile Include="bin\www" />
     <Compile Include="public\bootstrap\js\bootstrap.js" />
     <Compile Include="public\bootstrap\js\bootstrap.min.js" />
+    <Compile Include="public\javascripts\validation.js" />
     <Content Include="app_server\views\generic-text.jade" />
     <Content Include="app_server\views\location-review-form.jade" />
     <Content Include="app_server\views\location-info.jade" />
