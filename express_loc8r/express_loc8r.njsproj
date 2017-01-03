@@ -45,6 +45,7 @@
     <Compile Include="app_client\common\services\geolocation.service.js" />
     <Compile Include="app_client\common\services\loc8rData.service.js" />
     <Compile Include="app_client\home\home.controller.js" />
+    <Compile Include="app_client\locationDetail\locationDetail.controller.js" />
     <Compile Include="app_server\controllers\locations.js" />
     <Compile Include="app_server\controllers\others.js" />
     <Compile Include="app_api\models\db.js" />
@@ -64,6 +65,7 @@
     <Content Include="app_client\common\views\genericText.view.html" />
     <Content Include="app_client\home\home.view.html" />
     <Content Include="app_client\index.html" />
+    <Content Include="app_client\locationDetail\locationDetail.view.html" />
     <Content Include="app_server\views\generic-text.jade" />
     <Content Include="app_server\views\location-review-form.jade" />
     <Content Include="app_server\views\location-info.jade" />
@@ -102,6 +104,7 @@
     <Folder Include="app_client\common\" />
     <Folder Include="app_client\about\" />
     <Folder Include="app_client\lib\angular_1.5.9\" />
+    <Folder Include="app_client\locationDetail\" />
     <Folder Include="app_server\controllers\" />
     <Folder Include="app_server\views\_includes\" />
     <Folder Include="bin\" />
