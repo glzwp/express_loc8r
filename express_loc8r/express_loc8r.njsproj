@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="app_api\config\passport.js" />
     <Compile Include="app_api\controllers\locations.js" />
     <Compile Include="app_api\controllers\reviews.js" />
     <Compile Include="app_api\models\users.js" />
@@ -95,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app_api\controllers\" />
+    <Folder Include="app_api\config\" />
     <Folder Include="app_api\routes\" />
     <Folder Include="app_api\models\" />
     <Folder Include="app_client\common\directives\footerGeneric\" />
@@ -140,6 +142,7 @@
     <Folder Include="typings\globals\mongoose\" />
     <Folder Include="typings\globals\morgan\" />
     <Folder Include="typings\globals\node\" />
+    <Folder Include="typings\globals\passport\" />
     <Folder Include="typings\globals\serve-favicon\" />
     <Folder Include="typings\globals\serve-static\" />
     <Folder Include="typings\globals\stylus\" />
@@ -156,6 +159,7 @@
     <TypeScriptCompile Include="typings\globals\mongoose\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\morgan\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\passport\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\serve-favicon\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\serve-static\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\stylus\index.d.ts" />
