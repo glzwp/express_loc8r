@@ -33,6 +33,7 @@
     <Compile Include="app.js" />
     <Compile Include="app_api\controllers\locations.js" />
     <Compile Include="app_api\controllers\reviews.js" />
+    <Compile Include="app_api\models\users.js" />
     <Compile Include="app_api\routes\index.js" />
     <Compile Include="app_client\about\about.controller.js" />
     <Compile Include="app_client\app.js" />
@@ -61,6 +62,7 @@
     <Compile Include="public\angular\angular.min.js" />
     <Compile Include="public\angular\loc8rApp.js" />
     <Compile Include="public\javascripts\validation.js" />
+    <Content Include=".env" />
     <Content Include="app_client\common\directives\footerGeneric\footerGeneric.template.html" />
     <Content Include="app_client\common\directives\navigation\navigation.template.html" />
     <Content Include="app_client\common\directives\pageHeader\pageHeader.template.html" />
