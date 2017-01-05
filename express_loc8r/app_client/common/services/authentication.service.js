@@ -43,8 +43,6 @@
             return $http.post('/api/login', user)
                 .then(function mySucces(response) {
                 saveToken(response.data.token);
-            }, function myError(response) {
-                console.log(response);
             });
         };
 
