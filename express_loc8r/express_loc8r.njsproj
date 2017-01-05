@@ -42,6 +42,7 @@
     <Compile Include="app_client\auth\login\login.controller.js" />
     <Compile Include="app_client\auth\register\register.controller.js" />
     <Compile Include="app_client\common\directives\footerGeneric\footerGeneric.directive.js" />
+    <Compile Include="app_client\common\directives\navigation\navigation.controller.js" />
     <Compile Include="app_client\common\directives\navigation\navigation.directive.js" />
     <Compile Include="app_client\common\directives\pageHeader\pageHeader.directive.js" />
     <Compile Include="app_client\common\directives\ratingStars\ratingStars.directive.js" />
