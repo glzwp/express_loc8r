@@ -18,7 +18,7 @@ router.put('/locations/:locationid', auth,ctrlLocations.locationsUpdateOne);
 router.delete('/locations/:locationid', auth, ctrlLocations.locationsDeleteOne);
 
 // reviews
-router.post('/locations/:locationid/reviews', ctrlReviews.reviewsCreate);
+router.post('/locations/:locationid/reviews', auth, ctrlReviews.reviewsCreate);
 router.get('/locations/:locationid/reviews/:reviewid', ctrlReviews.reviewsReadOne);
 router.put('/locations/:locationid/reviews/:reviewid', ctrlReviews.reviewsUpdateOne);
 router.delete('/locations/:locationid/reviews/:reviewid', ctrlReviews.reviewsDeleteOne);
